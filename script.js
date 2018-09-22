@@ -4,7 +4,7 @@ function calculate(){
    var year = document.querySelector(".year").value;
 
  $.ajax({
-     url : `http://api.population.io:80/1.0/population/${year}/${countryData}/${ageData}`,
+     url : `https://api.population.io:80/1.0/population/${year}/${countryData}/${ageData}`,
      success:function(data) {
         let male= data[0].males;
         let female= data[0].females;
