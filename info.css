@@ -1,0 +1,103 @@
+body{
+    background-color: #eeeeee;
+    margin: 0px;
+}
+.icon{
+    background-color: #3bba63;
+    height: 150px;
+    width: 150px;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.world{
+    display: flex;
+    justify-content: center;
+    
+}
+.globel:hover{
+    transform: scale(1.5);
+    transition: 1.5s;
+    
+}
+.globel{
+    font-size: 90px;
+    color: white;
+}
+h1{
+    color:  #3bba63;
+}
+.peop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+
+    font-size: 20px;
+    
+}
+#para{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #3bba63;
+    color: white;
+    width: 300px;
+    border-color: #3bba63;
+    /* border: none; */
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    outline: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.heart:hover{
+    color: red;
+}
+.heart{
+    color: white;
+}
+header{
+    background-color:#3bba63; 
+    margin-bottom: 1em;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+h2{
+    margin-top: 0px;
+}
+
+i{
+    font-size: 25px;
+    cursor: pointer;
+    color: #c3ead0;
+}
+i:hover{
+    color: white;
+
+}
+.hom, .sear, .inf{
+    color: white;
+}
+
+#head{
+    display: flex;
+    justify-content:center;
+}
+h2{
+    margin-top: 0px;
+    color: white;
+}

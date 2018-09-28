@@ -2,9 +2,10 @@ function calculate(){
    var countryData = document.querySelector(".country").value;
    var ageData = document.querySelector(".age").value;
    var year = document.querySelector(".year").value;
+   document.querySelector("h2").innerHTML="Search";
 
  $.ajax({
-     url : `https://api.population.io:80/1.0/population/${year}/${countryData}/${ageData}`,
+     url : `http://api.population.io:80/1.0/population/${year}/${countryData}/${ageData}`,
      success:function(data) {
         let male= data[0].males;
         let female= data[0].females;
@@ -50,5 +51,15 @@ function calculate(){
 
         }
  });  
+
+}
+function home(){
+    document.querySelector("h2").innerHTML="work in progress";
+}
+function info(){
+
+    document.querySelector("h2").innerHTML="info";
+    
+    
 
 }

@@ -6,7 +6,41 @@ input{
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
+    width: 200px;
+}
+.inputs{
+    display: flex;
+    
+    justify-content: center;
+
+    flex-wrap: wrap;
 }
 header{
-    background-color:#7985ab; 
+    background-color:#3bba63; 
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    
+}
+i{
+    font-size: 25px;
+    cursor: pointer;
+    color: #c3ead0;
+}
+i:hover{
+    color: white;
+
+}
+.hom, .sear, .inf{
+    color: white;
+}
+
+#head{
+    display: flex;
+    justify-content:center;
+}
+h2{
+    margin-top: 0px;
+    color: white;
 }

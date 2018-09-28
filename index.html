@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>World Population</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
@@ -13,13 +14,40 @@
 </head>
 <body>
   <header>
-    <input type="search" placeholder="Country" class="country">
-    <input type="search" placeholder="age" class="age">
-    <input type="search" placeholder="year" class="year">
-    <button onclick="calculate()">Search</button>
+
+        <span  id="head">
+            <h2></h2>
+        </span> 
+
+    <div class="icons">
+
+    <span class="home">
+        <span><i class="fas fa-home" onclick="home()"></i></span>
+        <div class="hom">Home</div>
+    </span>
+
+    <span class="search">
+       <span> <i class="fas fa-search" onclick="calculate()" ></i></span>
+       <div class="sear">Search</div>
+    </span>
+
+    <span class="info">
+        <span><a href="info.html"><i class="fas fa-info-circle" onclick="info()"></i></a></span>
+        <div class="inf">info</div>
+    </span>
+
+</div>
+    <div class="inputs">  
+
+        <input type="search" placeholder="Country" class="country">
+        <input type="search" placeholder="age" class="age">
+        <input type="search" placeholder="year" class="year">
+    </div>
 </header>
 
 
-        <canvas id="myChart" width="400" height="400"></canvas>
+        <canvas id="myChart" width="300" height="300"></canvas>
 </body>
 </html>
+
+
